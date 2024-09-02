@@ -1,11 +1,11 @@
 PanDiff is a state-of-the-art approach for pansharpening satellite images using Denoising Diffusion Probabilistic Models (DDPM) in combination with a U-Net architecture. The goal of this project is to enhance the spatial resolution of low-resolution satellite images (e.g., Sentinel-1) by leveraging high-resolution images (e.g., Venus) in a generative process.
 
 Features : 
--Denoising Diffusion Probabilistic Model (DDPM): Implements a Gaussian diffusion process to iteratively denoise images and improve their resolution.
--U-Net Architecture: A robust neural network architecture that serves as the denoising function in the diffusion process.
--Image Preprocessing: Handles the loading and preprocessing of satellite image datasets, resizing and normalizing them for training.
--Training Pipeline: Includes scripts for training the diffusion model on paired low-resolution and high-resolution images.
--Testing Pipeline: Evaluates the trained model on test data to generate high-resolution images from low-resolution inputs.
+- Denoising Diffusion Probabilistic Model (DDPM): Implements a Gaussian diffusion process to iteratively denoise images and improve their resolution.
+- U-Net Architecture: A robust neural network architecture that serves as the denoising function in the diffusion process.
+- Image Preprocessing: Handles the loading and preprocessing of satellite image datasets, resizing and normalizing them for training.
+- Training Pipeline: Includes scripts for training the diffusion model on paired low-resolution and high-resolution images.
+- Testing Pipeline: Evaluates the trained model on test data to generate high-resolution images from low-resolution inputs.
 
 
 Project Structure:
